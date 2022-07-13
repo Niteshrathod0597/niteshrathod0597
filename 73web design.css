@@ -1,0 +1,43 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'monospace;', sans-serif;
+	background: url(https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8&w=1000&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+	color: white;
+	font-size: 3rem;
+}
+hr{
+	border-color: red;
+	border-width: 5px;
+	max-width: 5em ;
+	text-align: center;
+
+}
+.buffer{
+	height: 10em;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+.btn-md{
+	padding: 2rem 4 rem;
+}
+.btn-primary{
+	background-color: orange;
+	border-color: red;
+}
+.btn-primary:hover{
+	background-color: red;
+	border-color: red;
+	border-width: 4px;
+}
